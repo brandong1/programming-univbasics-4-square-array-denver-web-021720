@@ -1,10 +1,10 @@
 def square_array(array)
-  result = Array.new(numbers.size)
+  result = Array.new(array.size)
   
   counter = 0 
   
-  while counter < numbers.size
-    result[counter] = numbers[counter] ** 2 
+  while counter < array.size
+    result[counter] = array[counter] ** 2 
     counter += 1 
   end
   result
