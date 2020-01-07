@@ -1,7 +1,11 @@
 def square_array(array)
+  result = Array.new(numbers.size)
+  
   counter = 0 
   
-  while array[counter] do
-    puts array[counter]
-    counter += 1
+  while counter < numbers.size
+    result[counter] = numbers[counter] ** 2 
+    counter += 1 
+  end
+  result
 end
